@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PrimeReactProvider } from 'primereact/api';
 import HomePage from "./pages/HomePage";
-import VideoToLanguagePage from "./pages/VideoToLanguagePage";
 import './App.css';
+import MonitorPage from "./pages/MonitorPage";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="VideoToLanguage" element={<VideoToLanguagePage/>}/>
+          <Route path="Monitor" element={<MonitorPage/>}/>
+          <Route path="Home" element={<HomePage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </BrowserRouter>

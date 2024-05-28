@@ -9,12 +9,12 @@ export default function NavBar() {
         {
             label: 'Home',
             icon: 'pi pi-home',
-            command:()=>{ window.location=""; }
+            command:()=>{ window.location="Home"; }
         },
         {
-            label: 'Features',
+            label: 'Monitor',
             icon: 'pi pi-star',
-            command:()=>{ window.location="VideoToLanguage"; }
+            command:()=>{ window.location="Monitor"; }
         },
         {
             label: 'Projects',

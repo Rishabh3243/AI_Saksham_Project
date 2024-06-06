@@ -31,41 +31,47 @@ You can install the necessary packages using pip:
 pip install scipy imutils numpy argparse dlib opencv-python ultralytics keras
 ```
 
-#Main File
+# Main File
+
 The main file for executing the project is tm2.py. This script integrates all the components of the Driver Behavior Monitoring System, including face detection, emotion recognition, drowsiness detection, and mobile phone usage detection.
 
-#How to Run the Project
+# How to Run the Project
+
 Follow these steps to set up and run the Driver Behavior Monitoring System:
 
-#Clone the Repository:
+# Clone the Repository:
 
 ```bash
 git clone https://github.com/your-repository/driver-behavior-monitoring.git
 cd driver-behavior-monitoring
 ```
 
-#Install Dependencies:
+# Install Dependencies:
+
 Ensure you have all the required packages installed. You can use the provided requirements.txt file if available:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#Prepare Models:
+# Prepare Models:
 
 Download or prepare the necessary machine learning models for emotion recognition and drowsiness detection. Place the model files in the appropriate directories as expected by the tm2.py script.
 
-#Run the Main Script:
+# Run the Main Script:
+
 Execute the main script tm2.py to start the Driver Behavior Monitoring System.
 
 ```bash
 python tm2.py
 ```
 
-#Camera Setup:
+# Camera Setup:
+
 Ensure that your webcam or external camera is properly connected and recognized by the system. The script will use the camera to capture real-time video footage of the driver.
 
-#Project Structure
+# Project Structure
+
 Here's a brief overview of the project structure:
 
 ```bash
@@ -86,7 +92,7 @@ driver-behavior-monitoring/
 └── ...                        # Other scripts and files
 ```
 
-#Notes
+# Notes
 Ensure your environment meets all the hardware and software requirements specified.
 For best performance, use a high-resolution camera and ensure proper lighting conditions.
 The system should be tested in various scenarios to validate its accuracy and reliability.

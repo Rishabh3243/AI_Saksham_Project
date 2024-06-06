@@ -33,7 +33,7 @@ pip install scipy imutils numpy argparse dlib opencv-python ultralytics keras
 
 # Main File
 
-- The main file for executing the project is tm2.py.
+- The main file for executing the project is `tm2.py`.
 - This script integrates all the components of the Driver Behavior Monitoring System, including face detection, emotion recognition, drowsiness detection, and mobile phone usage detection.
 
 # How to Run the Project
@@ -49,7 +49,7 @@ cd driver-behavior-monitoring
 
 # Install Dependencies:
 
-Ensure you have all the required packages installed. You can use the provided requirements.txt file if available:
+Ensure you have all the required packages installed. You can use the provided `requirements.txt` file if available:
 
 ```bash
 pip install -r requirements.txt
@@ -58,11 +58,11 @@ pip install -r requirements.txt
 # Prepare Models:
 
 - Download or prepare the necessary machine learning models for emotion recognition and drowsiness detection.
-- Place the model files in the appropriate directories as expected by the tm2.py script.
+- Place the model files in the appropriate directories as expected by the `tm2.py` script.
 
 # Run the Main Script:
 
-Execute the main script tm2.py to start the Driver Behavior Monitoring System.
+Execute the main script `tm2.py` to start the Driver Behavior Monitoring System.
 
 ```bash
 python tm2.py

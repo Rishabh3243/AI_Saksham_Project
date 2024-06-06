@@ -33,7 +33,8 @@ pip install scipy imutils numpy argparse dlib opencv-python ultralytics keras
 
 # Main File
 
-The main file for executing the project is tm2.py. This script integrates all the components of the Driver Behavior Monitoring System, including face detection, emotion recognition, drowsiness detection, and mobile phone usage detection.
+- The main file for executing the project is tm2.py.
+- This script integrates all the components of the Driver Behavior Monitoring System, including face detection, emotion recognition, drowsiness detection, and mobile phone usage detection.
 
 # How to Run the Project
 
@@ -56,7 +57,8 @@ pip install -r requirements.txt
 
 # Prepare Models:
 
-Download or prepare the necessary machine learning models for emotion recognition and drowsiness detection. Place the model files in the appropriate directories as expected by the tm2.py script.
+- Download or prepare the necessary machine learning models for emotion recognition and drowsiness detection.
+- Place the model files in the appropriate directories as expected by the tm2.py script.
 
 # Run the Main Script:
 
@@ -68,7 +70,8 @@ python tm2.py
 
 # Camera Setup:
 
-Ensure that your webcam or external camera is properly connected and recognized by the system. The script will use the camera to capture real-time video footage of the driver.
+- Ensure that your webcam or external camera is properly connected and recognized by the system.
+- The script will use the camera to capture real-time video footage of the driver.
 
 # Project Structure
 
@@ -93,7 +96,7 @@ driver-behavior-monitoring/
 ```
 
 # Notes
-Ensure your environment meets all the hardware and software requirements specified.
-For best performance, use a high-resolution camera and ensure proper lighting conditions.
-The system should be tested in various scenarios to validate its accuracy and reliability.
-By following these instructions, you should be able to set up and run the Driver Behavior Monitoring System effectively. If you encounter any issues, please refer to the documentation or seek assistance from the project maintainers.
+- Ensure your environment meets all the hardware and software requirements specified.
+- For best performance, use a high-resolution camera and ensure proper lighting conditions.
+- The system should be tested in various scenarios to validate its accuracy and reliability.
+- By following these instructions, you should be able to set up and run the Driver Behavior Monitoring System effectively. If you encounter any issues, please -refer to the documentation or seek assistance from the project maintainers.
